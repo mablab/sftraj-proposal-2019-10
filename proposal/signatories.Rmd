@@ -7,8 +7,8 @@ An optional section would be for R-Core signatories where changes to R are propo
 
 The **Project team** lists the core members of the work, who will be
 instrumental in progress and completion of the project. Signatories
-are listed by alphabetical order.  **Note: relevant R packages to
-which people contributed are indicated within brackets.**
+are listed by alphabetical order.  **Note: R packages to which people
+contributed are indicated within brackets.**
 
 
 ## Project team
@@ -17,15 +17,16 @@ Who are the people responsible for actually delivering the project if the propos
 -->
 
   * **Mathieu Basille**, Assistant Professor at the University of
-    Florida, USA [`hab`, `rpostgis`, `rpostgisLT`]
+    Florida, USA [`adehabitatHS`, `hab`, `rpostgis`, `rpostgisLT`]
   * **Matt Boone**, Data Scientist at the University of Florida, USA
+    [`refsplitr`]
   * **Clément Calenge**, Statistical Analyst at the *Office national
-    de la chasse et de la faune sauvage*, France [`adehabitatHR`,
-    `adehabitatLT`]
+    de la chasse et de la faune sauvage*, France [`adehabitatMA`,
+    `adehabitatHR`, `adehabitatHS`, `adehabitatLT`]
   * **Rocío Joo**, Postdoctoral Associate at the University of
     Florida, USA
   * **Emiel van Loon**, Assistant Professor at the University of
-    Amsterdam, the Netherlands.
+    Amsterdam, the Netherlands [`zoon`, `RNCEP`].
 
 
 <!-- ## Contributors -->

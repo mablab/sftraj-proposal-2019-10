@@ -19,9 +19,11 @@ blog posts (https://mablab.org/post/sftraj-intro/ and
 https://mablab.org/post/sftraj-plan/) finally explain what we are
 doing, and why we need feedback from the community. Interestingly, in
 a very short period of time, we already received the perspective on
-`sftraj` from two developers of key packages (`amt` and
-`crawl`). Altogether, feedback received only confirms the need for a
-central trajectory package in R.
+`sftraj` from two developers of key packages (`amt` and `crawl`),
+which comes in addition to our early discussions with 5 developers
+from three other tracking packages (`VTrack`, `moveHMM` and
+`momentuHMM`). Altogether, feedback received only confirms the need
+for a central trajectory package in R.
 
 
 ## Technical delivery
@@ -74,6 +76,6 @@ Covering non-technical activities like on-going publicity, paper preparation, di
 
 While the work on `sftraj` will happen completely in the open, we will
 keep communicating on our progress, directly on Twitter as well as
-with more detailed blog posts on https://mablab.org/. We will
-constantly watch for feedback, notably through the GitHub repository,
-which will remain constantly open.
+with more detailed blog posts on https://mablab.org/. We will watch
+for feedback, notably through the GitHub repository, which will remain
+constantly open.

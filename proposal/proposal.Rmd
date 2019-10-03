@@ -42,21 +42,23 @@ collections of locations (a `Track` in our conceptual model) and steps
 knitr::include_graphics("figures/conceptual-model.png")
 ```
 
-As we just have started the work on `sftraj`, we have opened a step of
-brainstorming with the R Movement community, as to gather as much
-feedback as possible to be able to account for all requirements for
-trajectory objects. All the development happens in the open, on the
-`sftraj` GitHub account (https://github.com/mablab/sftraj), where we
-have already collected feedback in the form of 4 use cases in only 3
-days (https://github.com/mablab/sftraj/issues?q=label%3Ause-case).  As
-we work on a final implementation, it has already become clear to us
-that we need to consider features that were planned for later. For
-instance, the implementation of a measure of error (typically the
-error in GPS positions) has been requested, and might need to be
-implemented early in the development of `sftraj`. This and other
-user-contributed requests, as they were only considered as future work
-in our previous proposal, will limit the delivery of features that
-were only planned as optional. Among these were the addition of a
+As we just have started the work on `sftraj`, we have opened a
+collaborative brainstorming with the R Movement community, as to
+gather as much feedback as possible to be able to account for all
+requirements for trajectory objects. All the development happens in
+the open, on the `sftraj` GitHub account
+(https://github.com/mablab/sftraj), where, in only 3 days, we have
+already collected feedback in the form of 4 use cases
+(https://github.com/mablab/sftraj/issues?q=label%3Ause-case).  
+
+As we work on a final implementation, it has already become clear to
+us that we need to consider features that were originally planned for
+later. For instance, the implementation of a measure of error
+(typically the error in GPS positions) has been requested, and might
+need to be implemented early in the development of `sftraj`. This and
+other user-contributed requests, as they were considered as future
+work in our previous proposal, will limit the delivery of features
+that were only planned as optional. Among these were the addition of a
 vignette, and the submission of the package to CRAN.
 
 The second stage of work will entirely be focused on documenting and

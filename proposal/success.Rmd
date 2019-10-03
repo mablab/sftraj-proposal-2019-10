@@ -8,17 +8,47 @@ Projects should have a definition of done that is measurable, and a thorough und
 What does success look like? 
 -->
 
+This project will be successful if `sftraj` becomes the standard for
+tracking data in R, both from a user and a developer
+perspective. Outsourcing code for low level trajectory classes from
+other packages to `sftraj` will be the most important outcome. In this
+stage of the work, success is directly related to the deliverables,
+namely the vignette, submission of the package to CRAN, submission of
+the package to rOpenSci, and submission of a companion manuscript to
+the R Journal by the end of the 4-month period.
+
+
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
+
+Beyond delivering the four products in the planned time frame, success
+will be measured essentially from the adoption of the package:
+
+* From a user perspective: number of downloads (e.g. using RStudio
+  download statistics);
+* From a developer perspective: adoption in tracking packages that
+  will depend on `sftraj`.
+
 
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
 
-Next round: dynamic plot + tools for trajectories
+Three axes for further development will be targeted after this stage
+of work:
+
+  * Provide support to developers of R tracking packages to help them
+    develop conversion tools from their own custom classes to classes
+    from `sftraj`.
+  * Dynamic visualization of trajectories, allowing keyboard- and
+    mouse-controlled exploration of trajectories, step by step (based
+    on the solution provided in `rpostgisLT`).
+  * Developing tools to clean and interpolate trajectories, based on
+    specific filters and assumptions (e.g. maximum speed allowed, or
+    adding missing locations by interpolation, etc.).
 
 
 ## Key risks
@@ -31,3 +61,40 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+
+The main risk is actually linked to the completion of a functional
+package at the end of the first stage of the work. Despite strong
+delay to actually start the work due to administrative difficulties,
+we do not foresee further delay in delivering the foundations of the
+`sftraj` package: our team is experienced both in developing R
+packages and working on tracking data, and the R Movement community is
+responding very positively to our invitations.
+
+Specifically for this stage of the work, core project team members
+have all the expertise required for the deliverables:
+
+* **Vignette:** Clément Calenge has produced very elaborate vignettes
+  for each package of the `adehabitat` series. The vignette for
+  `adehabitatLT` has notably been recognized very positively in our
+  recent survey (Joo *et al.*, 2019), with 88.6% of respondents
+  expressing that the documentation was either good (allowing the user
+  to do everything they wanted and needed to do with the package) or
+  excellent (allowing users to do even more than what they initially
+  planned because of the excellent quality of the information).
+* **Submission to CRAN:** Mathieu Basille (`rpostgis`, `rpostgisLT`),
+  Clément Calenge (`adehabitatMA`, `adehabitatHR`, `adehabitatHS`,
+  `adehabitatLT`) and Emiel van Loon (`zoon`, `RNCEP`) all have
+  experience preparing and submitting R packages to CRAN.
+* **Submission to rOpenSci:** Matt Boone has recently been through the
+  process for the package `refsplitr`
+  (https://github.com/embruna/refsplitr), for which he was the lead
+  coder. `refsplitr` is now in the latest stages of review with
+  rOpenSci, and will be added to their list of packages very soon. As
+  a matter of fact, Matt even wrote a detailed blog post about the
+  whole review process at rOpenSci
+  (https://mablab.org/post/ropensci/).
+* **Companion manuscript for the R Journal:** Mathieu Basille has
+  worked on a similar approach for the package `rpostgis`, which is
+  detailed in Bucklin & Basille (2018), a manuscript that was prepared
+  right after the package reached a stable state and was published on
+  CRAN.

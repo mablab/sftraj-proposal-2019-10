@@ -12,30 +12,20 @@ It is important to cover:
 
 Movement defined broadly plays a central role in fields as diverse as
 transportation, sport, ecology, music, medicine, and data science
-(Gudmundsson *et al.* 2012). As a matter of fact, thanks to global
-navigation satellite system (GNSS) and radio-frequency identification
-(RFID), miniaturized tracking devices have become nearly ubiquitous,
-and resulted in an ever-increasing volume of localization data from
-various moving objects, such as humans or animals; cars, boats or
-planes; the hand of a musician playing a violin in 3 dimensions; the
-entire movement of an orchestra or a flock of starlings; or the eye of
-a person that changes its focus from one object to the other. Sampling
-all these movements results in the same type of data called *tracking
-data*, in the form of geographic ($x,y,z$) and temporal coordinates
-($t$) (Joo *et al.* 2019). 
+(Gudmundsson *et al.* 2012). As a matter of fact, miniaturized
+tracking devices have become nearly ubiquitous, and resulted in an
+ever-increasing volume of *tracking data* (Joo *et al.* 2019).
+However, there is a critical lack of standard infrastructure to deal
+with movement. As a matter of fact, the Movement community in R, while
+very dynamic, is also heavily fragmented (Joo *et al.* 2019).  We have
+listed 57 packages that process, visualize and analyze tracking data,
+half of which worked in isolation, not being linked to any other
+tracking package (Fig.1). While the package `adehabitatLT` has gained
+some traction in the community, the `ltraj` class it proposes is now
+fairly outdated, and for instance does not play well with recent
+spatial classes from `sf`.
 
-Despite this common nature, there is a critical lack of standard
-infrastructure to deal with movement. As a matter of fact, the
-Movement community in R, while very dynamic, is also heavily
-fragmented (Joo *et al.* 2019).  We have listed 57 packages that
-process, visualize and analyze tracking data, one third of which
-worked in isolation, not being linked to any other tracking package
-(Fig.1). While the package `adehabitatLT` has gained some traction in
-the community, the `ltraj` class it proposes is now fairly outdated,
-and for instance does not play well with recent spatial classes from
-`sf`.
-
-```{r r-ecosystem, echo = FALSE, out.width = "75%", fig.cap = "Network representation of the dependency between 57 tracking packages in R. Solid arrows go towards the package the others depend on. From Joo *et al.* 2019.", fig.align = "center", fig.pos = "t"}
+```{r r-ecosystem, echo = FALSE, out.width = "75%", fig.cap = "Network representation of the dependency between 57 tracking packages in R. Solid arrows go towards the package the others depend on. From Joo et al. 2019.", fig.align = "center", fig.pos = "t"}
 knitr::include_graphics("figures/r-ecosystem-depend.png")
 ```
 
@@ -45,7 +35,7 @@ recently started the work on the `sftraj` package, a project supported
 by the **R Consortium**, to address this gap. `sftraj` aims to address
 two specific objective:
 
-1. Propose a central class and basic functions to build, handle,
+1. Provide a central class and basic functions to build, handle,
    summarize and plot movement data;
 2. Build an ecosystem of packages that rely on `sftraj` for the data
    part.
