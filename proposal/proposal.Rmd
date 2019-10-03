@@ -8,6 +8,15 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
+During the first stage of the work (September 2019 until March 2020),
+we will work on the technical foundations of `sftraj` to deal with
+tracking data in R. The second stage of the work (this proposal,
+March–June 2020) will focus on providing solid documentation of the
+package and its specifications, targeting both users and package
+developers, which is essential for a broad adoption of the `sftraj`
+package.
+
+
 ## Detail
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
@@ -18,3 +27,43 @@ Depending on project type the detail section should include:
  - [ ] Architecture
  - [ ] Assumptions
 -->
+
+In the first stage of the work, we will define a precise data model
+for trajectories. This is currently work-in-progress, but we already
+have a conceptual model to guide the work and the implementation in R
+(Fig.2). This model recognizes the duality of locations
+(i.e. *tracking data* in the form of geographic $(x,y,z)$ and temporal
+$(t)$ coordinates) and steps (i.e. the straight-line segment
+connecting two successive locations), and thus the need to provide
+collections of locations (a `Track` in our conceptual model) and steps
+(a `Trajectory`) in the implementation.
+
+```{r data-model, echo = FALSE, out.width = "75%", fig.cap = "Proposed conceptual model for the 'sftraj' package using UML.", fig.align = "center", fig.pos = "!t"}
+knitr::include_graphics("figures/conceptual-model.png")
+```
+
+As we just have started the work on `sftraj`, we have opened a step of
+brainstorming with the R Movement community, as to gather as much
+feedback as possible to be able to account for all requirements for
+trajectory objects. All the development happens in the open, on the
+`sftraj` GitHub account (https://github.com/mablab/sftraj), where we
+have already collected feedback in the form of 4 use cases in only 3
+days (https://github.com/mablab/sftraj/issues?q=label%3Ause-case).  As
+we work on a final implementation, it has already become clear to us
+that we need to consider features that were planned for later. For
+instance, the implementation of a measure of error (typically the
+error in GPS positions) has been requested, and might need to be
+implemented early in the development of `sftraj`. This and other
+user-contributed requests, as they were only considered as future work
+in our previous proposal, will limit the delivery of features that
+were only planned as optional. Among these were the addition of a
+vignette, and the submission of the package to CRAN.
+
+The second stage of work will entirely be focused on documenting and
+detailing the internals of `sftraj` for both users and developers.
+The addition of a vignette and the submission of the package to CRAN
+will actually form the first layer of the work, which will culminate
+in the preparation and submission of `sftraj` to rOpenSci
+(https://ropensci.org/), and the preparation and submission of a
+manuscript detailing `sftraj` from a technical perspective to the R
+Journal.

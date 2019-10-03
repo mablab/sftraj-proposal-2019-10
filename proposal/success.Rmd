@@ -18,6 +18,9 @@ How will we know when success is achieved, what markers can we use along the way
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
 
+Next round: dynamic plot + tools for trajectories
+
+
 ## Key risks
 <!-- 
 What sort of things could come up that can delay or break the project?
