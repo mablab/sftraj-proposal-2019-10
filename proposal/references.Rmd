@@ -1,0 +1,15 @@
+# References
+
+- Bucklin, D., & Basille, M. (2018). rpostgis: linking R with a
+  PostGIS spatial database. The R Journal, 10(1),
+  251–268. https://doi.org/c7fc
+
+- Gudmundsson, J., Laube, P., & Wolle, T. (2011). Computational
+  Movement Analysis. *In* Kresse W, & Danko D. M. (Eds.), Springer
+  Handbook of Geographic Information (pp. 423–438), Springer-Verlag
+  Berlin Heidelberg. https://dx.doi.org/10.1007/978-3-540-72680-7_22
+
+- Joo, R., Boone, M. E., Clay, T. A., Patrick, S. C.,
+  Clusella-Trullas, S., & Basille, M. (2019). Navigating through the R
+  packages for movement. arXiv, 1901.05935,
+  https://arxiv.org/abs/1901.05935
