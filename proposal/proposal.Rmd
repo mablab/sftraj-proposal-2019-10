@@ -9,7 +9,7 @@ At a high-level address what your proposal is and how it will address the proble
 -->
 
 During the first stage of the work (September 2019 until March 2020),
-we will work on the technical foundations of `sftraj` to deal with
+we will be working on the technical foundations of `sftraj` to deal with
 tracking data in R. The second stage of the work (this proposal,
 March–June 2020) will focus on providing solid documentation of the
 package and its specifications, targeting both users and package
@@ -43,29 +43,30 @@ knitr::include_graphics("figures/conceptual-model.png")
 ```
 
 As we just have started the work on `sftraj`, we have opened a
-collaborative brainstorming with the R Movement community, as to
-gather as much feedback as possible to be able to account for all
-requirements for trajectory objects. All the development happens in
-the open, on the `sftraj` GitHub account
-(https://github.com/mablab/sftraj), where, in only 3 days, we have
-already collected feedback in the form of 4 use cases
+collaborative brainstorming space within the R Movement community, to
+gather as much feedback as possible to account for all
+requirements for trajectory objects. The development of each stage of 
+the project happens in the open, on the `sftraj` GitHub account
+(https://github.com/mablab/sftraj), where we have already feedback
+from the community in the form of use cases
 (https://github.com/mablab/sftraj/issues?q=label%3Ause-case).  
 
 As we work on a final implementation, it has already become clear to
 us that we need to consider features that were originally planned for
-later. For instance, the implementation of a measure of error
+later. For instance, the implementation of an error measure
 (typically the error in GPS positions) has been requested, and might
-need to be implemented early in the development of `sftraj`. This and
-other user-contributed requests, as they were considered as future
-work in our previous proposal, will limit the delivery of features
-that were only planned as optional. Among these were the addition of a
-vignette, and the submission of the package to CRAN.
+need to be implemented early in the development of `sftraj`. Since this and
+other user-contributed requests were considered as future
+work in our previous proposal, the delivery of other features, such as
+the addition of a vignette, and the submission of the package to CRAN,
+will be delayed. 
 
 The second stage of work will entirely be focused on documenting and
 detailing the internals of `sftraj` for both users and developers.
-The addition of a vignette and the submission of the package to CRAN
-will actually form the first layer of the work, which will culminate
-in the preparation and submission of `sftraj` to rOpenSci
+The first layer of the work will consist of the preparation of a vignette
+and the submission of the package to CRAN, to then focus
+on the preparation and submission of `sftraj` to rOpenSci
 (https://ropensci.org/), and the preparation and submission of a
 manuscript detailing `sftraj` from a technical perspective to the R
 Journal.
+

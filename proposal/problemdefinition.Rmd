@@ -11,14 +11,14 @@ It is important to cover:
 -->
 
 Movement defined broadly plays a central role in fields as diverse as
-transportation, sport, ecology, music, medicine, and data science
+transportation, sports, ecology, music, medicine and data science
 (Gudmundsson *et al.* 2012). As a matter of fact, miniaturized
 tracking devices have become nearly ubiquitous, and resulted in an
 ever-increasing volume of *tracking data* (Joo *et al.* 2019).
 However, there is a critical lack of standard infrastructure to deal
 with movement. As a matter of fact, the Movement community in R, while
 very dynamic, is also heavily fragmented (Joo *et al.* 2019).  We have
-listed 57 packages that process, visualize and analyze tracking data,
+listed 58 packages that process, visualize and analyze tracking data,
 half of which worked in isolation, not being linked to any other
 tracking package (Fig.1). While the package `adehabitatLT` has gained
 some traction in the community, the `ltraj` class it proposes is now
@@ -29,16 +29,21 @@ spatial classes from `sf`.
 knitr::include_graphics("figures/r-ecosystem-depend.png")
 ```
 
-In a nutshell, this work in isolation is for large part due to a lack
+In a nutshell, this work in isolation is mostly due to a lack
 of a modern infrastructure to deal with trajectories in R.  We
-recently started the work on the `sftraj` package, a project supported
+recently started working on the `sftraj` package, a project supported
 by the **R Consortium**, to address this gap. `sftraj` aims to address
-two specific objective:
+two specific objectives:
 
 1. Provide a central class and basic functions to build, handle,
    summarize and plot movement data;
-2. Build an ecosystem of packages that rely on `sftraj` for the data
-   part.
+2. Contribute to the foundations of a true community in the ecosystem of packages 
+that relies on `sftraj` for handling tracking data
+
+[//]: # (RJ: I modified point number 2 as I think that it is what you mean. 
+If this is too much, then how about "Optimize potential usability of straj to 
+build the foundations of an ecosystem of movement packages that would work truly
+as a community"?)
 
 The first objective is the subject of our initial stage of work,
 i.e. the first 6 months of the project (September 23, 2019 until March

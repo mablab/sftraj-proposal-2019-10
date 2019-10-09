@@ -16,7 +16,7 @@ work, which just started, will deliver solid technical foundations for
 trajectories in R. Our project has already been received very
 positively on Twitter, which we use to channel our communication. Two
 blog posts (https://mablab.org/post/sftraj-intro/ and
-https://mablab.org/post/sftraj-plan/) finally explain what we are
+https://mablab.org/post/sftraj-plan/) explained what we are
 doing, and why we need feedback from the community. Interestingly, in
 a very short period of time, we already received the perspective on
 `sftraj` from two developers of key packages (`amt` and `crawl`),
