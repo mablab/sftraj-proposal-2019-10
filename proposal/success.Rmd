@@ -63,9 +63,9 @@ What sort of things could come up that can delay or break the project?
 -->
 
 The main risk is actually linked to the completion of a functional
-package at the end of the first stage of the work. Despite strong
-delay to actually start the work due to administrative difficulties,
-we do not foresee further delay in delivering the foundations of the
+package at the end of the first stage of the work. Despite long delay
+to actually start the work due to administrative difficulties, we do
+not foresee further delay in delivering the foundations of the
 `sftraj` package: our team is experienced both in developing R
 packages and working on tracking data, and the R Movement community is
 responding very positively to our invitations.

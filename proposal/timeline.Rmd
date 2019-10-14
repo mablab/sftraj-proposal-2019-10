@@ -16,14 +16,14 @@ work, which just started, will deliver solid technical foundations for
 trajectories in R. Our project has already been received very
 positively on Twitter, which we use to channel our communication. Two
 blog posts (https://mablab.org/post/sftraj-intro/ and
-https://mablab.org/post/sftraj-plan/) finally explain what we are
-doing, and why we need feedback from the community. Interestingly, in
-a very short period of time, we already received the perspective on
-`sftraj` from developers of 4 tracking packages (`amt`, `crawl`,
-`spatsoc`, and `wildlifeDI`), which comes in addition to our early
-discussions with 5 developers from three other tracking packages
-(`VTrack`, `moveHMM` and `momentuHMM`). Altogether, feedback received
-only confirms the need for a central trajectory package in R.
+https://mablab.org/post/sftraj-plan/) explained what we are doing, and
+why we need feedback from the community. Interestingly, in a very
+short period of time, we already received the perspective on `sftraj`
+from developers of 4 tracking packages (`amt`, `crawl`, `spatsoc`, and
+`wildlifeDI`), which comes in addition to our early discussions with 5
+developers from three other tracking packages (`VTrack`, `moveHMM` and
+`momentuHMM`). Altogether, feedback received only confirms the need
+for a central trajectory package in R.
 
 
 ## Technical delivery
@@ -53,7 +53,7 @@ top of each other:
   it for rOpenSci. rOpenSci emphasizes (and basically enforces) a
   package's quality, fit, documentation, and clarity. `sftraj` would
   fit in the special category "geospatial data". Becoming the first
-  official rOpenSci tracking package (none of the 57 existing tracking
+  official rOpenSci tracking package (none of the 58 existing tracking
   packages are currently on rOpenSci) would give the package an extra
   exposure, and guarantee its overall usefulness and usability.
 * **Submission of a companion manuscript to the R Journal** [month
