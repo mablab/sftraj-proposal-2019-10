@@ -19,11 +19,11 @@ blog posts (https://mablab.org/post/sftraj-intro/ and
 https://mablab.org/post/sftraj-plan/) finally explain what we are
 doing, and why we need feedback from the community. Interestingly, in
 a very short period of time, we already received the perspective on
-`sftraj` from two developers of key packages (`amt` and `crawl`),
-which comes in addition to our early discussions with 5 developers
-from three other tracking packages (`VTrack`, `moveHMM` and
-`momentuHMM`). Altogether, feedback received only confirms the need
-for a central trajectory package in R.
+`sftraj` from developers of 4 tracking packages (`amt`, `crawl`,
+`spatsoc`, and `wildlifeDI`), which comes in addition to our early
+discussions with 5 developers from three other tracking packages
+(`VTrack`, `moveHMM` and `momentuHMM`). Altogether, feedback received
+only confirms the need for a central trajectory package in R.
 
 
 ## Technical delivery
@@ -45,15 +45,17 @@ top of each other:
   work, `sftraj` will become full-featured and installable from
   GitHub. In this second stage, we will ensure that the package is
   ready for CRAN and finally submit it there. Publication on CRAN will
-  allow for easy installation on any computer, which is mandatory for
-  wide adoption.
+  allow for easy installation on any computer, as well as enabling the
+  dependency system of R packages, which are both mandatory for broad
+  adoption.
 * **Submission to rOpenSci** [month 2]: After the package has been
   submitted to CRAN, we will go one step further and actually prepare
   it for rOpenSci. rOpenSci emphasizes (and basically enforces) a
   package's quality, fit, documentation, and clarity. `sftraj` would
-  fit in the special category "geospatial data". Becoming an official
-  rOpenSci package would give the package an extra exposure, and
-  guarantee its overall usefulness and usability.
+  fit in the special category "geospatial data". Becoming the first
+  official rOpenSci tracking package (none of the 57 existing tracking
+  packages are currently on rOpenSci) would give the package an extra
+  exposure, and guarantee its overall usefulness and usability.
 * **Submission of a companion manuscript to the R Journal** [month
   3–4]: Finally, as the quality of `sftraj` increases with the
   previous steps, we will work on a manuscript aimed at developers to
@@ -79,3 +81,11 @@ keep communicating on our progress, directly on Twitter as well as
 with more detailed blog posts on https://mablab.org/. We will watch
 for feedback, notably through the GitHub repository, which will remain
 constantly open.
+
+In parallel, we will use scientific conferences (which we already
+planned to attend, using other funding) to introduce `sftraj` and
+present our work, such as useR! 2020 (which will be held in St. Louis,
+Missouri in July 2020), the International Statistical Ecology
+Conference (ISEC, which will be held in Sydney Australia, in June
+2020), or Moving2Gather (which will be held in Rennes, France in March
+2020).

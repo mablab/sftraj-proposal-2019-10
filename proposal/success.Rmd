@@ -96,5 +96,5 @@ have all the expertise required for the deliverables:
 * **Companion manuscript for the R Journal:** Mathieu Basille has
   worked on a similar approach for the package `rpostgis`, which is
   detailed in Bucklin & Basille (2018), a manuscript that was prepared
-  right after the package reached a stable state and was published on
-  CRAN.
+  for the R Journal right after the package reached a stable state and
+  was published on CRAN.
