@@ -1,4 +1,4 @@
-proposal<-"sftraj: A central class for tracking and movement data"
+proposal<-"sftraj, part II: Documentation task force for a broad adoption"
 sponsor <- "R Consortium's ISC"
 proposal.file<-"isc-proposal.Rmd"
 author<-"Mathieu Basille"

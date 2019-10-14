@@ -11,5 +11,6 @@
 
 - Joo, R., Boone, M. E., Clay, T. A., Patrick, S. C.,
   Clusella-Trullas, S., & Basille, M. (2019). Navigating through the R
-  packages for movement. Journal of Animal Ecology (accepted).
+  packages for movement. Journal of Animal Ecology (early
+  view). https://doi.org/10.1111/1365-2656.13116  
   Pre-print available at: https://arxiv.org/abs/1901.05935
